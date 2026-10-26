@@ -5,10 +5,8 @@ class Asistente{
   const property historialEntradas = []
   var saldo
 
-
-
   // Metodos para el descuento en la entrada
-  method puedeRecibirBonificacion() = abono.esBonificable()
+  method abono() = abono
   method tieneSaldoPositivo() = saldo > 0
   method comprarEntrada(entrada){
     if(self.tieneSaldoPositivo()){

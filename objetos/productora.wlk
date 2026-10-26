@@ -1,6 +1,3 @@
-import objetos.vip.*
-import objetos.fan.*
-
 object productora{
     var property impuesto = 0
     const property listaAsistentes = #{}
